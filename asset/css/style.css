@@ -1,0 +1,185 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the default font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header styles */
+  #header {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .nav-brand {
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  /* Main content styles */
+  #site-main {
+    margin-top: 20px;
+  }
+  
+  .box-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .border-shadow {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #00d2ff, #928dab);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  /* Table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .thead-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    margin-right: 5px;
+  }
+  
+  
+  /* Additional styles for update and delete buttons */
+  .update {
+    background-color: #88ccff;
+  }
+  
+  .delete {
+    background-color: #ff8888;
+  }
+
+
+  
+#site-main {
+    margin-top: 20px;
+  }
+  
+  a.border-shadow {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a.border-shadow:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  .form-title h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .form-title span {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  #add_user {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group input[type="number"],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group input[type="radio"],
+  .form-group input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .form-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;    
+  }
+  
+  .form-group button[type="submit"] {
+    background-color: #0099ff;
+    color: #fff;
+  }
+  
+  .form-group button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+
+
